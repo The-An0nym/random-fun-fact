@@ -1,0 +1,16 @@
+#fact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+    max-width: 86vw;
+    max-height: 60vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 16vh;
+}
+
+#fact {
+    color: #bbb;
+    text-shadow: #444 -0.8em 0.5em 0.5em;
+}

@@ -1,0 +1,27 @@
+{
+    "1": {
+        "fact": "The Eiffel Tower can grow 12-15 cm taller in the summer",
+        "tags": ["Architecture"],
+        "source": "https://www.independent.co.uk/news/science/eiffel-tower-paris-height-summer-b2803524.html"
+    },
+    "2": {
+        "fact": "The fear of long words is called hippopotomonstrosesquippedaliophobia",
+        "tags": ["English"],
+        "source": "https://en.wiktionary.org/wiki/hippopotomonstrosesquipedaliophobia"
+    },
+    "3": {
+        "fact": "The fear of palindromes is called aibohphobia",
+        "tags": ["English"],
+        "source": "https://en.wiktionary.org/wiki/aibohphobia"
+    },
+    "4": {
+        "fact": "Bananas and oranges are berries, whereas strawberries and blackberries are not",
+        "tags": ["English", "Food"],
+        "source": "https://www.livescience.com/57477-why-are-bananas-considered-berries.html"
+    },
+    "5": {
+        "fact": "A Swede was fined over $1 Million for speeding in Switzerland",
+        "tags": ["News"],
+        "source": "https://www.swissinfo.ch/eng/demographics/driver-faces-1-000-000-speeding-fine/23091098"
+    }
+}
