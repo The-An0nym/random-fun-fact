@@ -1,6 +1,6 @@
 import loadFacts from '/data/loader.js';
 
-const factObj = await loadFacts();
+const factObj = (await loadFacts()).facts;
 
 // Keeps track of previously shown facts
 const oldFacts = localStorage.getItem("oldFacts") ? localStorage.getItem("oldFacts").split(",") : []; 
