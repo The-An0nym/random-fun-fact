@@ -7,8 +7,6 @@ const oldFacts = localStorage.getItem("oldFacts") ? localStorage.getItem("oldFac
 // All the fact IDs
 const factIDs = Object.keys(factObj);
 
-console.log(typeof oldFacts)
-
 /**
  * Space triggers nextFact
  */

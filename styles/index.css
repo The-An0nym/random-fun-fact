@@ -11,6 +11,6 @@
 }
 
 #fact {
-    color: #bbb;
+    color: var(--text);
     text-shadow: #444 -0.8em 0.5em 0.5em;
 }
