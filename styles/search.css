@@ -1,3 +1,9 @@
+#global {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 3em); /* Body padding + Nav height (approx) */
+}
+
 #search-wrapper {
     margin-top: 1em;
     display: flex;
@@ -11,6 +17,7 @@
 #tags-container {
     display: flex;
     gap: 0.5em;
+    flex-wrap: wrap;
 }
 
 .tag {
@@ -20,6 +27,11 @@
 .tag.selected {
     background-color: var(--text);
     color: var(--bg-light);
+}
+
+.tag.selected:hover{
+    background-color: var(--text-muted) !important;
+    color: var(--bg-dark);
 }
 
 #search-input {
@@ -51,10 +63,10 @@ input:focus {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    padding: 1em 0em;
-    max-height: calc(100vh - 10em);
+    padding: 1em 0em 3em 0em;
     overflow-y: scroll;
-    box-sizing: border-box;
+    flex: 1;
+    -webkit-mask-image: linear-gradient(transparent, black 5%, black 80%, transparent 100%);
 }
 
 .fact-wrapper {

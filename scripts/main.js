@@ -22,6 +22,34 @@ document.getElementById("next").addEventListener("click", () => {
     nextFact();
 });
 
+/**
+ * Clicking previous button shows previous fact
+ */
+document.getElementById("previous").addEventListener("click", () => {
+    const currId = document.getElementById("id").innerText;
+    if(oldFacts.length === 0) {
+        document.getElementById("previous").className = "disabled";
+        return;
+    }
+
+    if(!oldFacts.includes(currId)) {
+        showFact(oldFacts[oldFacts.length - 1]);
+        return;
+    }
+
+    const index = oldFacts.indexOf(currId);
+    if(index === 0 ) {
+        document.getElementById("previous").className = "disabled";
+        return;
+    }
+
+    if(index === 1) {
+        document.getElementById("previous").className = "disabled";
+    }
+
+    showFact(oldFacts[index - 1]);
+});
+
 if(window.location.href.includes("#")) {
     if(showFact(window.location.href.split("#")[1]) === false)
         nextFact();
@@ -34,10 +62,8 @@ if(window.location.href.includes("#")) {
  * Responsible for picking out a new, randomized fact
  */
 function nextFact() {
-    // Store previous fact
-    if(document.getElementById("id"))
-        oldFacts.push(document.getElementById("id").innerText);
-    localStorage.setItem("oldFacts", oldFacts.join(","));
+    // Enable previous button
+    document.getElementById("previous").className = oldFacts.length === 0 ? "disabled" : "";    
 
     // Check if all facts have been shown
     if(oldFacts.length >= factIDs.length) {
@@ -71,6 +97,7 @@ function nextFact() {
  */
 function showFact(id) {
     console.log("Showing fact ID:", id);
+    storeFact(id);
 
     if(id === undefined || factObj[id] === undefined)
         return false;
@@ -84,4 +111,14 @@ function showFact(id) {
     document.getElementById("id").innerText = id;
 
     return true;
+}
+
+/**
+ * Stores a given fact by ID in localStorage
+ * @param {string} id - Fact ID
+ */
+function storeFact(id) {
+    if(!oldFacts.includes(id))
+        oldFacts.push(id);
+    localStorage.setItem("oldFacts", oldFacts.join(","));
 }

@@ -37,7 +37,12 @@ button {
     font-size: inherit;
 }
 
-button:hover {
+button:not(.disabled):hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+button.disabled {
+    color: var(--bg-light) !important;
+    border-color: var(--bg-light) !important;
 }
