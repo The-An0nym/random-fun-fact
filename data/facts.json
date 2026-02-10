@@ -1,85 +1,150 @@
 {   
-    "tags" : ["Architecture", "Biology", "English", "Food", "History", "Record"],
+    "tags" : ["Architecture", "Astronomy", "Biology", "English", "Food", "History", "Geography", "Record"],
     "facts": {
-        "A1": {
+        "AR1": {
             "fact": "The Eiffel Tower can grow 12-15 cm taller in the summer",
             "tags": ["Architecture"],
             "source": "https://www.independent.co.uk/news/science/eiffel-tower-paris-height-summer-b2803524.html"
         },
-        "B1": {
+        "AR2": {
+            "fact": "The Eiffel Tower has an apartment at the top",
+            "tags": ["Architecture"],
+            "source": "https://www.toureiffel.paris/en/news/130-years/did-gustave-eiffel-live-tower"
+        },
+        "AS1": {
+            "fact": "The Moon is slowly drifting away from Earth",
+            "tags": ["Astronomy"],
+            "source": "https://www.esa.int/Applications/Observing_the_Earth/10_remarkable_facts_about_Earth"
+        },
+        "BI1": {
             "fact": "Snails have teeth",
             "tags": ["Biology"],
             "source": "https://nhm.org/stories/microscopic-look-snail-jaws"
         },
-        "B2": {
+        "BI2": {
             "fact": "A horse normally has more than one horsepower",
             "tags": ["Biology"],
             "source": "https://www.sciencefocus.com/science/how-much-horsepower-does-a-horse-have"
         },
-        "B3": {
-            "fact": "Octopuses have three hearts and blue blood",
+        "BI3": {
+            "fact": "Octopuses have three hearts",
             "tags": ["Biology"],
             "source": "https://www.newscientist.com/question/many-hearts-octopus/"
         },
-        "B4": {
+        "BI4": {
+            "fact": "Octopuses have blue blood",
+            "tags": ["Biology"],
+            "source": "https://www.newscientist.com/question/many-hearts-octopus/"
+        },
+        "BI5": {
             "fact": "Hippos can't swim",
             "tags": ["Biology"],
             "source": "https://www.youtube.com/watch?v=xu4T9kawhAM"
         },
-        "B5": {
+        "BI6": {
             "fact": "Wombat poop is cube-shaped",
             "tags": ["Biology"],
             "source": "https://www.bbc.com/news/world-australia-46258616"
         },
-        "B6": {
+        "BI7": {
             "fact": "Animals can be allergic to humans",
             "tags": ["Biology"],
             "source": "https://www.sciencefocus.com/science/can-animals-be-allergic-to-humans/"
         },
-        "B7": {
+        "BI8": {
             "fact": "Platypuses sweat milk",
             "tags": ["Biology"],
             "source": "https://www.sciencefocus.com/nature/do-platypuses-really-sweat-milk/"
         },
-        "B8": {
+        "BI9": {
             "fact": "Babies are born with 300 bones, wheseas adults have 206",
             "tags": ["Biology"],
             "source": "https://www.healthline.com/health/how-many-bones-does-a-baby-have"
         },
-        "E1": {
+        "BI10": {
+            "fact": "A Blue Whale tongue weighs as much as an African Elephant",
+            "tags": ["Biology"],
+            "source": "https://danawharf.com/blog/the-ultimate-guide-to-blue-whales/"
+        },
+        "BI11": {
+            "fact": "A Blue Whale heart is roughly the size of a small car",
+            "tags": ["Biology"],
+            "source": "https://danawharf.com/blog/the-ultimate-guide-to-blue-whales/"
+        },
+        "EN1": {
             "fact": "The fear of long words is called hippopotomonstrosesquippedaliophobia",
             "tags": ["English"],
             "source": "https://en.wiktionary.org/wiki/hippopotomonstrosesquipedaliophobia"
         },
-        "E2": {
+        "EN2": {
             "fact": "The fear of palindromes is called aibohphobia",
             "tags": ["English"],
             "source": "https://en.wiktionary.org/wiki/aibohphobia"
         },
-        "E3": {
+        "EN3": {
             "fact": "Bananas and oranges are berries, whereas strawberries and blackberries are not",
             "tags": ["English", "Food"],
             "source": "https://www.livescience.com/57477-why-are-bananas-considered-berries.html"
         },
-        "H1": {
+        "EN4": {
+            "fact": "J was the last letter added to the English alphabet",
+            "tags": ["English", "History"],
+            "source": "https://www.dictionary.com/articles/j"
+        },
+        "GE1": {
+            "fact": "Australia is wider than the Moon",
+            "tags": ["Geography", "Astronomy"],
+            "source": "https://www.esa.int/Applications/Observing_the_Earth/10_remarkable_facts_about_Earth"
+        },
+        "GE2": {
+            "fact": "The unicorn is the national animal of Scotland",
+            "tags": ["Geography"],
+            "source": "https://www.nts.org.uk/stories/the-unicorn-scotlands-national-animal"
+        },
+        "GE3": {
+            "fact": "Vatican City is the smallest country in the world",
+            "tags": ["Geography", "Record"],
+            "source": "https://www.britannica.com/topic/list-of-the-smallest-countries-by-area"
+        },
+        "HI1": {
             "fact": "Chainsaws were first invented for childbirth",
             "tags": ["History"],
             "source": "https://www.britannica.com/one-good-fact/what-surprising-task-was-the-chainsaw-invented-for"
         },
-        "H2": {
+        "HI2": {
             "fact": "Napoleon Bonaparte was not actually short",
             "tags": ["History"],
             "source": "https://www.britannica.com/story/was-napoleon-short"
         },
-        "H3": {
+        "HI3": {
             "fact": "The shortest war in history lasted about 40 minutes",
             "tags": ["History", "Record"],
             "source": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
         },
-        "R1": {
+        "HI4": {
+            "fact": "Art used to be an Olympic sport",
+            "tags": ["History"],
+            "source": "https://en.wikipedia.org/wiki/Art_competitions_at_the_Summer_Olympics"
+        },
+        "HI5": {
+            "fact": "Queen Elizabeth II was a trained mechanic",
+            "tags": ["History"],
+            "source": "https://www.autoweek.com/news/people/a41123474/remembering-queen-elizabeth-ii-wwii-mechanic/"
+        },
+        "HI6": {
+            "fact": "Ketchup was used as a medicine",
+            "tags": ["History"],
+            "source": "https://brucewilsonauthor.medium.com/was-ketchup-used-as-medicine-920f0a1ba1b4"
+        },
+        "RE1": {
             "fact": "A Swede was fined over $1 Million for speeding in Switzerland",
             "tags": ["Record"],
             "source": "https://www.swissinfo.ch/eng/demographics/driver-faces-1-000-000-speeding-fine/23091098"
+        },
+        "RE2": {
+            "fact": "\"Artamène ou le Grand Cyrus\" is the longest novel ever written",
+            "tags": ["Record"],
+            "source": "https://www.shortlist.com/news/the-10-longest-novels-ever-written"
         }
     }
 }
