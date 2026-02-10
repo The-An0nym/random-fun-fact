@@ -71,6 +71,21 @@
             "tags": ["Biology"],
             "source": "https://danawharf.com/blog/the-ultimate-guide-to-blue-whales/"
         },
+        "BI12": {
+            "fact": "Sharks have been around before trees existed",
+            "tags": ["Biology"],
+            "source": "https://www.nhm.ac.uk/discover/shark-evolution-a-450-million-year-timeline.html"
+        },
+        "BI13": {
+            "fact": "Pigs can't look directly up at the sky",
+            "tags": ["Biology"],
+            "source": "https://www.bbc.co.uk/bitesize/articles/zq6vxg8"
+        },
+        "BI14": {
+            "fact": "Elephants can't jump",
+            "tags": ["Biology"],
+            "source": "https://www.bbc.co.uk/bitesize/articles/zq6vxg8"
+        },
         "EN1": {
             "fact": "The fear of long words is called hippopotomonstrosesquippedaliophobia",
             "tags": ["English"],
@@ -90,6 +105,21 @@
             "fact": "J was the last letter added to the English alphabet",
             "tags": ["English", "History"],
             "source": "https://www.dictionary.com/articles/j"
+        },
+        "EN5": {
+            "fact": "A group of ferrets is called a business",
+            "tags": ["English"],
+            "source": "https://www.oed.com/dictionary/business_n?tab=meaning_and_use#11686396"
+        },
+        "EN6": {
+            "fact": "The singular of spaghetti is spaghetto",
+            "tags": ["English", "Food"],
+            "source": "https://en.wiktionary.org/wiki/spaghetto"
+        },
+        "EN7": {
+            "fact": "The singular of data is datum",
+            "tags": ["English"],
+            "source": "https://www.merriam-webster.com/dictionary/datum"
         },
         "GE1": {
             "fact": "Australia is wider than the Moon",
@@ -135,6 +165,11 @@
             "fact": "Ketchup was used as a medicine",
             "tags": ["History"],
             "source": "https://brucewilsonauthor.medium.com/was-ketchup-used-as-medicine-920f0a1ba1b4"
+        },
+        "HI7": {
+            "fact": "Pope Benedict IX was pope three times",
+            "tags": ["History"],
+            "source": "https://www.britannica.com/biography/Benedict-IX"
         },
         "RE1": {
             "fact": "A Swede was fined over $1 Million for speeding in Switzerland",
