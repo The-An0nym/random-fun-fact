@@ -36,10 +36,10 @@ jobs:
           sed -i 's|<a href="/search">Search</a>|<a href="/random-fun-fact/search">Search</a>|g' index.html
       - name: Fix search URL on index.html
         run: |
-          sed -i 's|<a href="/">Random Fun Fact</a>|<a href="/random-fun-fact/">Random Fun Fact</a>|g' index.html
+          sed -i 's|<a href="/">Random Fun Fact</a>|<a href="/random-fun-fact/">Random Fun Fact</a>|g' search.html
       - name: Fix URL to JSON on loader.js
         run: |
-          sed -i 's|fetch('/data/facts.json')|fetch('/random-fun-fact/data/facts.json')|g' index.html
+          sed -i 's|fetch('/data/facts.json')|fetch('/random-fun-fact/data/facts.json')|g' data/loader.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
