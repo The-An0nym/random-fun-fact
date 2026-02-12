@@ -39,7 +39,13 @@ jobs:
           sed -i 's|<a href="/">Random Fun Fact</a>|<a href="/random-fun-fact/">Random Fun Fact</a>|g' search.html
       - name: Fix URL to JSON on loader.js
         run: |
-          sed -i 's|fetch('/data/facts.json')|fetch('/random-fun-fact/data/facts.json')|g' data/loader.js
+          sed -i "s|fetch('/data/facts.json')|fetch('/random-fun-fact/data/facts.json')|g" data/loader.js
+      - name: Fix URL of import on main.js
+        run: |
+          sed -i "s|import loadFacts from '/data/loader.js'|import loadFacts from '/random-fun-fact/data/loader.js'|g" scripts/main.js
+      - name: Fix URL of import on search.js
+        run: |
+          sed -i "s|import loadFacts from '/data/loader.js'|import loadFacts from '/random-fun-fact/data/loader.js'|g" scripts/search.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
