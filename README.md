@@ -10,9 +10,5 @@ A fact can be shown by ID via URL by appending #ID to the end of the URL.
 
 
 ## Todo
-- [ ] Fix default pages website
-    - [ ] Disallowed MIME type bug
-    - [ ] Navigation links
 - [ ] Add more facts
 - [ ] Style improvements
-- [ ] Handle empty source (JavaScript)

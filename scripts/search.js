@@ -89,10 +89,12 @@ function appendResults(factIDs) {
         factTags.innerText = fact.tags.join(", ");
         factDetails.appendChild(factTags);
         
-        const factSource = document.createElement("a");
-        factSource.href = fact.source;
-        factSource.innerText = fact.source.split("/")[2];
-        factDetails.appendChild(factSource);
+        if(fact.source) {
+            const factSource = document.createElement("a");
+            factSource.href = fact.source;
+            factSource.innerText = fact.source.split("/")[2];
+            factDetails.appendChild(factSource);
+        }
 
 
         factWrapper.appendChild(factElement);

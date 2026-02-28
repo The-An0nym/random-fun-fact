@@ -106,9 +106,14 @@ function showFact(id) {
 
     document.getElementById("fact").innerText = factData.fact;
     document.getElementById("tags").innerText = factData.tags.join(", ");
-    document.getElementById("source").href = factData.source;
-    document.getElementById("source").innerText = factData.source.split("/")[2];
     document.getElementById("id").innerText = id;
+
+    if(factData.source) {
+        document.getElementById("source").href = factData.source;
+        document.getElementById("source").innerText = factData.source.split("/")[2];
+    } else {
+        document.getElementById("source").innerText = "";
+    }
 
     return true;
 }
