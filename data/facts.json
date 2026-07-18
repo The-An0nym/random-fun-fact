@@ -86,6 +86,16 @@
             "tags": ["Biology"],
             "source": "https://www.bbc.co.uk/bitesize/articles/zq6vxg8"
         },
+        "BI15": {
+            "fact": "Birds are dinosaurs",
+            "tags": ["Biology"],
+            "source": "https://evolution.berkeley.edu/what-are-evograms/the-origin-of-birds/"
+        },
+        "BI16": {
+            "fact": "There is no set definition of a species",
+            "tags": ["Biology"],
+            "source": "https://pubmed.ncbi.nlm.nih.gov/28761006/"
+        },
         "EN1": {
             "fact": "The fear of long words is called hippopotomonstrosesquippedaliophobia",
             "tags": ["English"],
@@ -121,6 +131,16 @@
             "tags": ["English"],
             "source": "https://www.merriam-webster.com/dictionary/datum"
         },
+        "EN8": {
+            "fact": "There are about 170000 words in current use in English",
+            "tags": ["English"],
+            "source": "https://englishlive.ef.com/en/blog/language-lab/many-words-english-language/"
+        },
+        "EN9": {
+            "fact": "English speakers know about 20000-30000 words",
+            "tags": ["English"],
+            "source": "https://englishlive.ef.com/en/blog/language-lab/many-words-english-language/"
+        },
         "GE1": {
             "fact": "Australia is wider than the Moon",
             "tags": ["Geography", "Astronomy"],
@@ -135,6 +155,11 @@
             "fact": "Vatican City is the smallest country in the world",
             "tags": ["Geography", "Record"],
             "source": "https://www.britannica.com/topic/list-of-the-smallest-countries-by-area"
+        },
+        "GE4": {
+            "fact": "Canada and Denmark share a landborder",
+            "tags": ["Geography"],
+            "source": "https://en.wikipedia.org/wiki/Hans_Island"
         },
         "HI1": {
             "fact": "Chainsaws were first invented for childbirth",
@@ -170,6 +195,21 @@
             "fact": "Pope Benedict IX was pope three times",
             "tags": ["History"],
             "source": "https://www.britannica.com/biography/Benedict-IX"
+        },
+        "HI8": {
+            "fact": "The Tyrannosaurus lived closer in time to humans than the Stegosaurus",
+            "tags": ["History"],
+            "source": "https://www.usgs.gov/faqs/did-all-dinosaurs-live-together-and-same-time"
+        },
+        "HI9": {
+            "fact": "Cleopatra lived closer in time to the first moon landing than the construction of the Great Pyramids",
+            "tags": ["History"],
+            "source": "https://www.worldatlas.com/articles/so-cleopatra-lived-closer-in-time-to-the-first-lunar-landing-than-the-great-pyramids.html"
+        },
+        "HI10": {
+            "fact": "Over 99.9% of species that have ever lived have gone extinct",
+            "tags": ["History"],
+            "source": "https://en.wikipedia.org/wiki/Extinction#Causes"
         },
         "RE1": {
             "fact": "A Swede was fined over $1 Million for speeding in Switzerland",
